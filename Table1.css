@@ -1,0 +1,70 @@
+#table1 {
+  font-family: Arial;
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: 100px;
+  width: 80%;
+  overflow: auto;
+  transform-origin:0%; 
+  transform: scale(0.9);
+}
+  
+  #table1 td, #table1 th {
+    border: 1px solid #ddd;
+    padding: 1px;
+  }
+  
+  #table1 tr:nth-child(even){background-color: #ddd;}
+  
+  #table1 tr:hover {background-color: #ddd;}
+  
+  #table1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0077b3;
+    color: white;
+  }
+  
+  .button1 {
+    border:none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .print-btn
+  {
+    background-color:#0077b3; 
+  }
+  .edit-btn
+  {
+      background-color:#0077b3;
+  }
+  
+  .del-btn
+  {
+      background-color:#ed0b0b;
+  }
+  
+  #table1::caption {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    caption-side: top;
+  }
+.del-btn ion-icon{
+  font-size: 19px;
+}
+.print-btn ion-icon{
+  font-size: 19px;
+}
+

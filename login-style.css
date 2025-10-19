@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("bimage.png");
+    height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+  .login-box {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
